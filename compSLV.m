@@ -24,16 +24,16 @@ for i = 1:length(info.cls)
                   ', video: ', idxVid, ' ......']);
               
             featFileName = [info.dirfeat, '\', info.type, '\', info.cls{i}, ...
-                            '\v_', info.cls{i}, '_', idxGroup, '_', idxVid, info.sufix];
+                            '\v_', info.cls{i}, '_', idxGroup, '_', idxVid, info.suffix];
                         
             if ~exist(featFileName, 'file')
                 break;
             end
             
             vecFileName = [info.dirvec, '\', info.type, '\', info.cls{i}, ...
-                           '\v_', info.cls{i}, '_', idxGroup, '_', idxVid];
+                           '\v_', info.cls{i}, '_', idxGroup, '_', idxVid, '.mat'];
             
-            if exist([vecFileName, '.mat'], 'file')
+            if exist(vecFileName, 'file')
                 k = k + 1;
                 continue;
             end

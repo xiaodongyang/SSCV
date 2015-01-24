@@ -17,7 +17,7 @@ for i = 1:ncls
         while 1
             idxVid = sprintf('%02d', k);
             featFileName = [info.dirfeat, '\', info.type, '\', info.cls{i}, ...
-                            '\v_', info.cls{i}, '_', idxGroup, '_', idxVid];
+                            '\v_', info.cls{i}, '_', idxGroup, '_', idxVid, info.suffix];
             
             fp = fopen(featFileName, 'r');
             if fp < 0
