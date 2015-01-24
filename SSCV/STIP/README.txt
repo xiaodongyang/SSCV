@@ -1,0 +1,1 @@
+Compute super descriptor vector (SDV) and super location vector (SLV) from each video file.
