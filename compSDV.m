@@ -21,7 +21,7 @@ for i = 1:length(info.cls)
             end
             
             vecFileName = [info.dirvec, '\', info.type, '\', info.cls{i}, ...
-                           '\v_', info.cls{i}, '_', idxGroup, '_', idxVid, '.mat'];
+                           '\v_', info.cls{i}, '_', idxGroup, '_', idxVid, '_SDV.mat'];
                        
             if exist(vecFileName, 'file')
                 k = k + 1;
