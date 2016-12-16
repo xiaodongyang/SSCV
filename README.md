@@ -22,7 +22,7 @@ If you find any bug or develop some extensions, please feel free to drop me a li
 
 Please cite our paper if you use the code:
 
-X. Yang and Y. Tian. Action Recognition Using Super Sparse Coding Vector with Spatio-Temporal Awareness. European Conference on Computer Vision (ECCV), 2014. [[PDF](http://yangxd.org/publications/papers/SSCV.pdf)]
+X. Yang and Y. Tian. Action Recognition Using Super Sparse Coding Vector with Spatio-Temporal Awareness. European Conference on Computer Vision (ECCV), 2014. [[PDF](http://xiaodongyang.org/publications/papers/eccv14.pdf)]
 
 
 ### License Conditions
